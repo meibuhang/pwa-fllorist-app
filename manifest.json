@@ -1,0 +1,16 @@
+{
+    "name" : "Mardhiyah Flower",
+    "short_name" : "Mardhiyah Flower",
+    "description" : "submission1 PWA",
+    "start_url" : "/index.html",
+    "display" : "standalone",
+    "background_color" : "#00897B",
+    "theme_color" : "#00897B",
+    "icons" : [
+        {
+            "src" : "/icon.png",
+            "sizes" : "400x400",
+            "type" : "image/png"
+        }
+    ]
+}

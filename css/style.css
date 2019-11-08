@@ -1,0 +1,102 @@
+h1,h2,h3,h4,h5,h6 {
+  
+    font-family: 'Lora', serif;
+  }
+  #content {
+    margin :0 auto;
+    width: 100%;
+    padding-top: 74px; /* height dari header*/
+    padding-bottom: 127px; /* height dari footer*/
+    background :rgb(255, 255, 255);
+    color:rgb(92, 91, 91);
+  }
+.topvendor {
+	background:#ffebf5;
+	width: 100%;
+	position: relative; 
+	top: 0;
+	left: 0;
+	padding: 20px 40px;
+	color: #333;
+}
+.topvendor h2 {
+	font-size: 30px;
+	color: #969696;
+	margin-top: 0;
+}
+.topvendor p {
+	line-height: 1.6em;
+    font-size:18px;
+    color: #7d7474;
+}
+
+#tengah {
+  height:100%;
+  margin: auto;
+  position: absolute;
+
+}
+#tengah h2 {
+    margin: 60px 15px 0;
+	padding: 0;
+    font-size: 30px;
+	color: #969696;
+}
+.boxPortofolio {
+  
+    margin: 30px auto;
+    display: inline-block;
+    text-align:center;
+    transition: all 100ms ease;
+    padding:10px;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,0.07), 0 2px 9px 0 rgba(62,57,107,0.06);
+  }
+  
+  .boxPortofolio:hover {
+    transform: translateY(-5px) translateZ(0);
+    box-shadow: 0 20px 40px 0 rgba(62,57,107,0.28);
+  }
+  
+  .boxPortofolio img {
+    width: 200px;
+    height:200px;
+    border-radius:5%;
+    vertical-align: top;
+    
+  }
+  .desc > p {
+    color: #777;
+    padding: 15px;
+    text-align: center;
+  }
+.aboutus {
+  margin:auto;
+}
+.aboutus_box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.aboutus_box > p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+#submit {
+  color:#777; 
+  background:#fff;
+  border:2px solid #EF9A9A;
+  padding:15px 32px;
+  text-align:center;
+  display:inline-block;
+  cursor:pointer ;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+#submit:hover {
+  color: #fff;
+    background:#EF9A9A;
+    }
+   
