@@ -1,6 +1,7 @@
 const CACHE_NAME="pwa_mardhiyah";
 var urlsToCache = [
     "/",
+    "manifest.json",
     "/nav.html",
     "/icon.png",
     "/index.html",
@@ -11,7 +12,14 @@ var urlsToCache = [
     "/css/materialize.min.css",
     "/js/materialize.min.js",
     "/js/nav.js",
+    "/img/1.jpeg",
+    "/img/2.jpeg",
+    "/img/3.jpeg",
+    "/img/4.jpeg",
+    "/img/5.jpeg",
+    "/img/6.jpeg"
 ];
+
 
 self.addEventListener("install", function(event){
 
