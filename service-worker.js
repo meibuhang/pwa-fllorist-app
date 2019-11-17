@@ -10,6 +10,7 @@ var urlsToCache = [
     "/pages/contact.html",
     "/pages/produk.html",
     "/css/materialize.min.css",
+    "/css/style.css",
     "/js/materialize.min.js",
     "/js/nav.js",
     "/img/1.jpeg",
